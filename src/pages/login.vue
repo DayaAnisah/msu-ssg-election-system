@@ -76,8 +76,9 @@
             ></q-btn>
           </div>
         </q-form>
-        <div class="text-center text-weight-medium text-primary">
-          <br /><br /><br />*To register your account and retrieve the password, proceed
+        <div class="text-center text-weight-medium text-primary absolute-center-right">
+          <br><br><br>
+          *To register your account and retrieve the password, proceed
           to Division of Student Affairs, Alonto Hall, MSU Marawi Campus.
         </div>
       </div>

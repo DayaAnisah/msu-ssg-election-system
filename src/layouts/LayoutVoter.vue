@@ -19,9 +19,10 @@
           <q-btn-dropdown round flat dropdown-icon="person">
             <div align="center">
               <q-avatar size="50px">
-                <img src="~assets/logo.png" />
+                <img src="~assets/images/flower.png" />
               </q-avatar>
-              <div>Hello! ako to</div>
+              <div class="text-weight-bold">Anisah Dayaan</div>
+              <div>201811942</div>
             </div>
           </q-btn-dropdown>
         </div>
@@ -41,12 +42,12 @@
       <q-scroll-area class="fit">
         <q-toolbar class="GPL__toolbar">
           <q-toolbar-title class="row items-center text-grey-8">
-            <div class="q-ml-sm">MENU</div>
+            <div class="q-ml-sm absolute-center">MENU</div>
           </q-toolbar-title>
         </q-toolbar>
 
         <q-list padding>
-          <q-item clickable v-ripple to="/home">
+          <q-item clickable v-ripple to="/Representative/R_Homepage">
             <q-item-section avatar>
               <q-icon name="home" />
             </q-item-section>
@@ -54,7 +55,7 @@
             <q-item-section> Home </q-item-section>
           </q-item>
 
-          <q-item clickable v-ripple to="/candidates">
+          <q-item clickable v-ripple to="/Representative/R_Candidate">
             <q-item-section avatar>
               <q-icon name="people" />
             </q-item-section>
@@ -62,7 +63,7 @@
             <q-item-section> Candidates </q-item-section>
           </q-item>
 
-          <q-item clickable v-ripple to="/vote">
+          <q-item clickable v-ripple to="/Representative/R_Vote">
             <q-item-section avatar>
               <q-icon name="check" />
             </q-item-section>
